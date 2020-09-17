@@ -51,6 +51,7 @@
 				<configuration>
 					<pushReleases>true</pushReleases>
                     <allowUntracked>true</allowUntracked>
+                    <goals>clean install</goals>
 					<flowInitContext>
 						<masterBranchName>release</masterBranchName>
 						<developBranchName>develop</developBranchName>
