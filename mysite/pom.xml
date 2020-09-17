@@ -23,7 +23,6 @@
     <description>My Site</description>
 
     <modules>
-        <module>all</module>
         <module>core</module>
     </modules>
 
