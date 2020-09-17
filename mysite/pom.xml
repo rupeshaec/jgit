@@ -19,7 +19,7 @@
     <groupId>com.mysite</groupId>
     <artifactId>mysite</artifactId>
     <packaging>pom</packaging>
-    <version>11.1.111-SNAPSHOT</version>
+    <version>11.1.111</version>
     <description>My Site</description>
 
     <modules>
@@ -51,6 +51,7 @@
 				<configuration>
 					<pushReleases>true</pushReleases>
                     <allowUntracked>true</allowUntracked>
+                    <goals>clean install</goals>
 					<flowInitContext>
 						<masterBranchName>release</masterBranchName>
 						<developBranchName>develop</developBranchName>
